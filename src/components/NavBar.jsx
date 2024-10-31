@@ -6,7 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import "./NavBar.css";
 
-const NavBar = () => {
+export const NavBar = () => {
   let CompraTotal = 25000;
   CompraTotal = CompraTotal.toLocaleString();
   const token = false;
@@ -55,5 +55,3 @@ const NavBar = () => {
     </>
   );
 };
-
-export default NavBar;
